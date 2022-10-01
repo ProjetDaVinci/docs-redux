@@ -20,6 +20,10 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  "typedocOptions": {
+    "entryPoints": ["src/redux/ducks/typeDelivery/slice"],
+    "out": "docs"
+  },
   "include": [
     "src"
   ]
